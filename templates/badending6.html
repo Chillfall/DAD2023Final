@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div style = 'background-color: black; color: aliceblue;'>
+<p>As you investigate, more and more whispers begin to fill in your ears.</p>
+<p>Darkness climbs into your eyes, trying to take over your thoughts.</p>
+<h5>And your brains.</h5>
+
+<p>Maybe everything is fake.</p>
+<p>Maybe everything is nothing.</p>
+<p>Maybe you are someone else sitting at the computer and wasting time on this boring game that's made of shitty code. Maybe you still have many things that are truly important to do, but you keep ignoring them.</p>
+<p>Is this the world?</p>
+<h4>??????????????????</h4>
+<img src = "{{ url_for('static', filename='broken.jpg') }}" >
+
+<p>But you woke up. Your {{pet}} saved you. They dragged you out of the dungeon and into the sunshine. You now feel as good as new. Unfortunately, you won't be able to hand in your final project in time.</p>
+
+<h1>Game Over</h1>
+<p>(You got an E)</p>
+
+<a href = \> Try again?</a>
+<p>You shouldn't try again. This is the closest thing to reality that you'll ever get.</p>
+</div>
+
+{% endblock %}

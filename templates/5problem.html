@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>Problem written by the Math God (not my friend Ben)</p>
+<img src = "{{ url_for('static', filename='problem.jpg') }}" >
+<p>The Math God: The variables are x1, x2, x3 from left to right.</p>
+<form method = 'POST'>
+  
+    What is x1?
+    <input name = 'x1' />
+    <br>
+    What is x2?
+    <input name = 'x2' />
+    <br>
+
+    What is x3?
+    <input name = 'x3' />
+    
+    <br>
+
+    <input type = 'submit'>
+
+</form>
+
+{% endblock %}

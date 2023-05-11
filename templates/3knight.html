@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>You entered the door</p>
+<h2>There is a statue of a knight blocking your way.</h2>
+<p>She is holding the handle of a bladeless sword. </p>
+<form method = 'POST'>
+
+    <input type="radio" name="selection" value="1">
+    <label for="1">Try to knock her into pieces</label><br>
+    <input type="radio" name="selection" value="2">
+    <label for="2">Tell her that she is very beautiful</label><br>
+    <input type="radio" name="selection" value="3">
+    <label for="3">Tell her that she looks very strong</label><br>
+
+    <input type = 'submit'>
+</form>
+
+
+{% endblock %}

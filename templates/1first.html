@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>OK. You're at the door. You tried knocking for a long time but no one answered. It seems that you have to do this the hard way.</h1>
+<form method = 'POST'>
+
+    <input type="radio" name="selection1" value="1">
+    <label for="1">Slam it open!</label><br>
+    <input type="radio" name="selection1" value="2">
+    <label for="2">Pick the Lock.</label><br>
+    <input type="radio" name="selection1" value="3">
+    <label for="3">Wait.</label><br>
+    <input type = 'submit'>
+</form>
+
+{% endblock %}
